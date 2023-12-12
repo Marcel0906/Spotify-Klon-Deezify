@@ -1,0 +1,22 @@
+[
+  {
+    "id": "100001",
+    "email": "sp@deezify.de",
+    "password": "Pa$$w0rd"
+  },
+  {
+    "id": "100002",
+    "email": "mk@deezify.de",
+    "password": "Pa$$w0rd"
+  },
+  {
+    "id": "100003",
+    "email": "vcg@deezify.de",
+    "password": "Pa$$w0rd"
+  },
+  {
+    "id": "100004",
+    "email": "someone@deezify.de",
+    "password": "Pa$$w0rd"
+  }
+]

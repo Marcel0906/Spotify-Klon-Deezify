@@ -1,0 +1,2 @@
+- bei der id hab ich überlegt, ob wir da von uns 3 die rapidapi-key rein machen, damit sich jeder mit seiner api-kennung anmelden kann
+- bei email kann man ja fakemails nehmen wie vcg@deezyfy.de, seb@deezyfy.de und marcel@deezyfy.de oder was auch immer. is ja jeden selbst überlassen

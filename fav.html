@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deezify Search</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   
+  </head>
+  <body>
+    <header>
+      <!-- <h1>Deezify Search</h1> -->
+      <div class="logo" id="logo"></div>
+
+      <div class="deezify">
+        <span style="color: rgb(163, 059, 255)">DEEZ</span
+        ><span style="color: #1ed760">IFY</span>
+       
+      </div>
+     
+      <div>
+        <form id="searchBar">
+          <input type="text" id="searchInput1" required />
+          <button type="submit" id="searchButton" class="button">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+         <a href="fav.html" title="Favoritenliste"><i class="fa fa-star" aria-hidden="true" style="color: yellow;"></i></a>
+         &nbsp;&nbsp;
+         &nbsp;&nbsp;
+        <a href="genre.html" title="Genre"><i class="fa fa-music" aria-hidden="true" style="color: rgb(163, 059, 255);"></i></a>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        <a href="search.html" title="Suche"><i class="fa fa-search" aria-hidden="true" style="color: #1ed760;"></i></div></a>
+
+
+      </div>
+      <button id="logoutButton" class="button">
+        <a href="index.html" class="logoutButton">Logout</a>
+      </button>
+    </header>
+
+    <main>
+    
+      <form id="searchForm">
+        <input type="text" id="searchInput2" required />
+        <button id="send" type="submit" class="button">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <button id="reset" class="button">
+          <i class="fa fa-minus" aria-hidden="true"></i>
+        </button>
+      </form>
+
+      <div id="searchResults"></div>
+      <br />
+      <table></table>
+
+
+      
+
+      <div id="searchResults2"></div>
+      
+
+      <div id="player">
+        <audio id="audioPlayer" controls>
+            Your browser does not support the audio tag.
+        </audio>
+      
+        <ul id="songList"></ul>
+    </div>
+
+    </main>
+
+    <script type="module" src="./js/search.js"></script>
+    <script type="module" src="./js/player.js" defer></script>
+    <script type="module" src="./js/genre.js"></script>
+  </body>
+</html>
+
+

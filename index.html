@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deezify</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <!-- <img src="./assets/pics/deezify.png" alt="Deezify-Logo" /> -->
+    <header>
+      <div class="logo" id="logo">
+        <!-- <img src="logo.png" alt="our super awesome logo" /> -->
+      </div>
+
+      <div id="userButton">
+        <button id="signupButton" class="button">Sign Up</button>
+        <button id="loginButton" class="button">Login</button>
+      </div>
+    </header>
+    <main>
+      <form>
+        <input type="email" id="username" required placeholder="Your Email" />
+        <input
+          type="password"
+          id="password"
+          required
+          placeholder="Your Password"
+        />
+        <button id="btn" class="button">Login</button>
+      </form>
+      <script type="module" src="./js/login.js"></script>
+    </main>
+  </body>
+</html>
